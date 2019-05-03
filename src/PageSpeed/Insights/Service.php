@@ -10,7 +10,7 @@ class Service
 	/**
 	 * @var string
 	 */
-	private $gateway = 'https://www.googleapis.com/pagespeedonline/v2/';
+	private $gateway = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed';
 
 	/**
 	 * Returns PageSpeed score, page statistics, and PageSpeed formatted results for specified URL
